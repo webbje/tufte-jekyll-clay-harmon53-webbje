@@ -1,14 +1,12 @@
-- link: //www.twitter.com/twitter_handle 
+- link: //www.twitter.com/webbje
   icon: icon-twitter
-- link: //plus.google.com/+googlePlusName 
-  icon: icon-google2
-- link: //github.com/GithubHandle 
+- link: //github.com/webbje 
   icon: icon-github
-- link: //www.flickr.com/photos/FlickrUserID 
+- link: //www.flickr.com/photos/blissonwheels 
   icon: icon-flickr3
 - link: /feed 
   icon: icon-rss2
-- link: //vimeo.com/vimeo-id
+- link: //vimeo.com/webbje
   icon: icon-vimeo2
-- link: //www.linkedin.com/
+- link: //www.linkedin.com/in/jerry-webb-5bb0571/
   icon: icon-linkedin
