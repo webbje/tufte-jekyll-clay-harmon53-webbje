@@ -6,11 +6,13 @@ Please be aware that the feature parity between the tufte-css repository and thi
 
 ## Demo
 
-A sample site with self-documenting content is available [here](http://clayh53.github.io/tufte-jekyll/) on github pages.
+A sample site with self-documenting content is available [here](http://clayh53.github.io/tufte-jekyll/) on github pages. Start with this I'd suggest to get any pull requests that may be more recent than this fork of the code. 
 
 ## Installation
 
-I'm not going to go into great detail here. I am just going to assume that anyone interested in either Jekyll, Edward Tufte's work or Github has some basic skills. I created this with Ruby 2.2.0 and Jekyll 2.5.3. There is absolutely nothing exotic going on here, so you can probably make any recent version of Jekyll work with this setup.
+I'm not going to go into great detail here. I am just going to assume that anyone interested in either Jekyll, Edward Tufte's work or Github has some basic skills. 
+I created this with Ruby 2.2.0 and Jekyll 2.5.3. There is absolutely nothing exotic going on here, so you can probably make any recent version of Jekyll work with this setup (JW note: see "Required-Gems" for the self consistet set of Gems required to be installed. Do not install Jekyll using apt install, install instead using "gem install jekyll" and use the gem versions listed in Required-Gems to avoid tedious manual updates of gems to the right versions through
+trial and error. 
 
 So copy, pull, download a zipfile or whatever and fire it up.
 
@@ -21,9 +23,7 @@ jekyll build
 
 ```
 
-And then point your browser at localhost:4000/tufte-jekyll
-
-You can also use `jekyll serve -w --baseurl ''` to remove `/tufte-jekyll` from the url and serve your site directly from localhost:4000. This only affects your local preview. See [Setting your baseurl correctly](#setting-your-baseurl-correctly) for more details.
+And then copy your _site folder to /var/www/html to serve content if you are using Apache2 to serve your site.
 
 ## Configuration
 
