@@ -1,14 +1,14 @@
-baseurl: /tufte-jekyll
-title: Tufte-Jekyll
-subtitle: Content-centric blogging
-author: clay harmon
+baseurl: 
+title: In Case You Missed It
+subtitle: Further notes from the Lilleflyttehytta Instagram Account
+author: Ruanuke
 simple_search: http://google.com/search
-description: A Jekyll theme for content-rich sites
+description: Articles on shopping less and living more
 name: tufte
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink: /articles/:short_year/:title
-timezone: America/New_York
+timezone: Europe/London
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md']
 post:
@@ -24,4 +24,4 @@ transfer:
   command: rsync
   settings: -av
   source: _site/
-  destination: ~/Git/clayh53.github.com/
+  destination: ~/Git/webbje.github.com/

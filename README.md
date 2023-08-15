@@ -17,7 +17,8 @@ So copy, pull, download a zipfile or whatever and fire it up.
 ```
 cd ~/thatPlaceYouPutIt/tufte-jekyll
 jekyll build
-jekyll serve -w
+#jekyll serve -w -- this does not work currently due to a problem with compatibility of webrick versions between Ubuntu 22.04 and the version that the author built with
+
 ```
 
 And then point your browser at localhost:4000/tufte-jekyll
