@@ -24,7 +24,16 @@ jekyll build
 ```
 
 And then copy your _site folder to /var/www/html to serve content if you are using Apache2 to serve your site.
+Note: articles do not get linked with an .html extension, Apache needs to add that with a rewrite rule, so turn on the module for the rewrite engine and add these lines to the apache.conf file:
 
+```
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^.*\.html$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ %{REQUEST_FILENAME}.html
+	AllowOverride None
+```
 ## Configuration
 
 ### Jekyll site building options
