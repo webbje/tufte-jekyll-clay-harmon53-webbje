@@ -12,6 +12,7 @@ task :generate do
     "source"      => ".",
     "destination" => "_site"
   })).process
+  system "rm -rf /var/www/html/ && mv _site /var/www/html"
 end
 
 
